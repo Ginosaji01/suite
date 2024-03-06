@@ -179,7 +179,6 @@ services:
     scheduler:
         engine: jenkins
         version: '2.324'
-        csrf-protection-enabled: true
         endpoints:
             scheduler.qchuong-staging.cloud.spryker.toys:
     mail_catcher:
